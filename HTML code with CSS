@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h2 id="red"><span id="standout">Ella May Powell</span></h2>
+    
+    <style>
+        body{font-family: "HelveticNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucinda Grande", sans-serif;}
+        #red{color:red; font-weight: lighter}
+        
+        #standout{font font-weight: bold; font-style: italic}
+        p{color:teal}
+        .black{color:black;}
+        
+        #intro{width:50%; float:left;}
+        .infoBox{background-color:rosybrown; width:50%; float:right;
+       margin-top:50px; border:solid 1px grey;
+            border-radius:5px;
+            text-align: justify
+        }
+        #questions{clear:both; border-top:solid 1px #cccccc}
+        div{padding:15px; box-sizing:border-box}
+    </style>
+    
+    </head>
+    <body>
+    <div id="intro">
+        <img src="https://th.bing.com/th/id/R.5a52058ab278063d4e53ab8d2d2b4888?rik=vu0SnS9Kguvi9A&riu=http%3a%2f%2fmysuccesscircleonline.com%2fwp-content%2fuploads%2f2010%2f12%2fdesktop-computer.jpg&ehk=o5kdV%2bChDsBw45XeLABUl4tk09ADw63cv5fi2aYJLDw%3d&risl=&pid=ImgRaw&r=0" height=100 width=100>
+        <h2 id="red">Welcome to Ella May Powell's Webpage&#169;</body></head></h2>
+    <p class="black"> Please register your visit using this application. </p></html>
+</div>
+<div class="introduction">
+        <p> <strong>Important: Please send any queries to ellamay.powell97@gmail.com</strong></p>
+        <p> Please read the following information:</p>
+        <a href="http://www.hse.gov.uk/workers/index.htm" target="_blank">Health and Safety in the Workplace</a>
+</div>
+<div class="infoBox">
+        <p> Please have the following information ready:</p>
+        <ol>
+        <li>License Plate</li>
+        <li>Parking Bay Number</li>
+        <li> Name of Person You Are Visiting</li>
+        </ol>
+ </div>
+<div id="questions">
+         <input type="checkbox">Do you have a vehicle?
+        <input type='text'>
+        <p>What type of vehicle is it?</p>
+        <input type="radio"  name="size">Saloon
+        <input type="radio" name="size">SUV
+        <input type="radio" name="size">Hatchback
+</div>
+        <p>Which parking bay  are you in?</p>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+        <p>Who are you visiting?</p>
+        <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            </tr>
+        <tr>
+            <td>Rob</td>
+            <td>Director</td>
+            </tr>
+        </table>
+        <input type="submit" value="Confirm">
+        <p id="Conduct">Code of Conduct</p>
+        <a href="#conduct">Code of Conduct</a>
+        <p> No loud music after 8pm. Please respect the residents.</p>
+        <iframe width='600' height='400' src="https://www.hse.gov.uk/workers/index.htm"></iframe>
+    </body>
+</html>
